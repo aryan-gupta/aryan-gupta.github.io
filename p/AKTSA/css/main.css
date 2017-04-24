@@ -1,0 +1,95 @@
+
+/******************************************************************
+ *Main
+ ******************************************************************/
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|Nunito:700|Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+
+body{
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+    padding:  0;
+    margin: 0;
+	overflow: hidden;
+}
+
+h2, h3, h4, h5, h6{
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+}
+h1{
+	font-family:"Audiowide", sans-serif;
+	font-size:1000%;
+	margin:0;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+	font-size:200%;
+	margin:0;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;   
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+        font-size: 120%;
+		color: white;
+}
+
+header{
+    padding-bottom: 40px;
+}
+
+#slides {
+      display:none;
+    }
+
+.EmailParagraph{
+	position: absolute;
+	left: 10%;
+	bottom: 0;
+	width: 100%;
+}
+
+.GoogleCalendar{
+	position: relative;
+	right: 25%;
+	margin-left: 2%;
+	height: 65%;
+	width: 48%;
+	border-width:0;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.ScrollDown{
+	font-style:italic;
+	//position:absolute;
+	//bottom:40px;
+	//left:25vw;
+	width:50vw;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.ScrollButton{
+    //background: #2980b9;
+    color: gray;
+    cursor: pointer;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    position: absolute;
+    font-size: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: middle;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+}

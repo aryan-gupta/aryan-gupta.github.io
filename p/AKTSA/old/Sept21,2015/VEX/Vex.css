@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|Nunito:700|Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+
+body{
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+    padding:  0;
+    margin: 0;
+    color:white;
+}
+
+
+
+h2, h3, h4, h5, h6{
+	font-family: 'Ubuntu', sans-serif;
+}
+h1{
+	font-family:"Audiowide", sans-serif;
+	font-size:1000%;
+	margin:0;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+	font-size:200%;
+	margin:0;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;   
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 120%;
+    margin-left:5vw;
+    margin-right:5vw;
+}
+
+
+section{
+	text-align:center;
+}
+section:nth-child(1){
+	background-color:black;
+    background-image:url("/images/VEXbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:50% 50%;
+}
+section:nth-child(2){
+	background:#2980b9;
+}
+section:nth-child(3){
+    background:#2980b9;
+}
+section:nth-child(4){
+    background:#9b59b6;
+}
+section:nth-child(5){
+	background:#2c3e50;
+}
+section:nth-child(6){
+	background:#2980b9;
+}
+
+a{
+    text-decoration:underline;
+    color:white;
+}
+a:hover{
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+}
+
+code{
+    color:white;
+    padding:2px;
+    border-radius:5px;
+    background:#2c3e50;
+}
+
+header{
+    position:relative;
+    z-index:1;
+}
+
+
+.TitleBG{
+    position:absolute;
+    z-index:0;
+    width:100%;
+    height:100%;
+    background:radial-gradient(black, rgba(0,0,0,0));
+    left:0;
+    top:0;
+    
+}
+
+#YTDisappear{
+    position:absolute;
+    width:50%;
+    left:25%;
+    top:50%;
+    transform:translateY(-50%);
+    pointer-events:none;
+    z-index:1;
+}
+#TitleBG2{   
+    pointer-events:none;
+    background:radial-gradient(black, rgba(0, 0, 0, 0.7), rgba(0,0,0,0), rgba(0,0,0,0));
+}
+
+#AttendRank{
+	display:inline-block;
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+#AttendRank li{
+	padding:10px;
+	text-align:center;
+}
+#AttendRank li:nth-child(odd){
+	background:#ecf0f1;
+	color:black;
+}
+#AttendRank li:nth-child(even){
+	background:#bdc3c7;
+	color:black;
+}

@@ -1,0 +1,411 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|Nunito:700|Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+
+body{
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+    padding:  0;
+    margin: 0;
+}
+
+
+
+h2, h3, h4, h5, h6{
+	font-family: 'Ubuntu', sans-serif;
+}
+h1{
+	font-family:"Audiowide", sans-serif;
+	font-size:1000%;
+	margin:0;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+	font-size:200%;
+	margin:0;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;   
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+        font-size: 120%;
+}
+
+
+
+section:nth-child(odd){
+	background:white;
+}
+section:nth-child(even){
+    background-color: #F4F4F4;
+}
+section:nth-child(1){
+	background-color:black;
+    background-image:url("./images/nats.jpg");
+    background-size:cover;
+    background-position:50% 50%;
+    color:white;
+}
+
+
+
+
+/*
+ *  Cards
+ */
+
+/*Code was written by Dmitry and is incredibly messy, broken, and hack-y. Recommend caution if making changes.*/
+
+.dawg{
+    background-color: #F4F4F4;
+    color: black;
+    display: inline-block;
+    width: 350px;
+    margin: 20px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+    -webkit-transition: background-color  0.4s ease-out;
+	-moz-transition: background-color  0.4s ease-out;
+	-o-transition: background-color  0.4s ease-out;
+	-ms-transition: background-color  0.4s ease-out;
+	transition: background-color  0.4s ease-out;
+}
+
+.dawg:hover{
+    background-color: #8e44ad;
+    color: white;
+	-webkit-transition: background-color  0.4s ease-out;
+	-moz-transition: background-color  0.4s ease-out;
+	-o-transition: background-color  0.4s ease-out;
+	-ms-transition: background-color  0.4s ease-out;
+	transition: background-color  0.4s ease-out;
+}
+
+.cheapcardfix .dawg{
+	background:white;
+}
+.cheapcardfix .dawg:hover{
+    background-color: #8e44ad !important;
+    /*Overrides holder 2 cheapcardfix background value*/
+}
+.holder2 .cheapcardfix .dawg{
+	background:#F4F4F4;
+}
+
+.dawg h3{
+ margin-top: 0;   
+}
+
+.holder{   
+    max-width: 1200px;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+.cardCon{
+    min-width: 1200px;
+    height: 450px;
+}
+
+/*Additional Cards Code, slightly less messy*/
+.ThreeCards{
+	margin-top:30px;
+}
+.ThreeCards div{
+	width:30vw;
+	height:54vh;
+	margin-left:1vw;
+	margin-right:1vw;
+	display:inline;
+	text-align:center;
+    border: none;
+    background-color: #F4F4F4;
+    padding: 4px;
+}
+.ThreeCards img{
+	max-width:29vw;
+}
+
+
+
+
+/*
+    Responsive Stuff 
+*/ 
+
+@media  all and (min-width: 0px) {
+    .holder{ 
+        width: 410px;
+        //background: blue;
+    }
+}
+
+@media  all and (min-width: 1000px){
+    .holder{ 
+        width: 800px;
+        //background: red;
+    }
+
+    .bu{
+        display: normal;
+    }
+}
+
+@media  all and (min-width: 1200px){
+    .holder{ 
+        width: 1200px;
+        //background: red;
+    }
+
+    .bu{
+        display: none;
+    }
+}
+
+
+
+
+
+/*
+ * Additional Small Things
+ */
+
+
+/*.ScrollDown{
+	font-style:italic;
+	position:absolute;
+	bottom:25px;
+	left:25vw;
+	width:50vw;
+}*/
+
+.ScrollButton{
+    color: gray;
+    cursor: pointer;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    position: absolute;
+    font-size: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: middle;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+}
+
+.fp-tooltip{
+	color:black !important;
+	text-shadow:0px 0px 10px #fff;
+}
+
+
+
+.BigButton{
+	display:inline-block;
+	background:#7A52CC;
+	color:white;
+	padding:10px;
+	transition:all 0.4s ease;
+    margin-bottom:10px;
+}
+.BigButton:hover{
+	background:#F4F4F4;
+	color:black;
+	text-decoration:none !important;
+}
+
+.BotLeftBox{
+    position:absolute;
+    background:rgba(44, 62, 80,0.8);
+    color:white;
+    bottom:2vh;
+    left:-100%;
+    transition:all 1s ease-out;
+    padding:30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size:200%;
+    display:block;
+    z-index:1;
+}
+.BotLeftBox img{
+    max-width:10vw;
+}
+.BotLeftBox:hover{
+    left: -0.5% !important;
+    transition: 0.2s ease;
+    color:white;
+    text-decoration:none;
+}
+
+
+
+
+
+.Grid6{
+	width:90vw;
+	height:80vh;
+	position:relative;
+	top:8vh;
+    
+}
+.Grid6 td{
+	overflow:hidden;
+	border-style:solid;
+	border-color:black;
+	padding:0;
+	position:relative;
+    width:33vw;
+}
+
+
+.HoverZoom .Grid6{
+	width:100%;
+	border-collapse:collapse;
+	height:100vh;
+	top:0;
+}
+.HoverZoom .Grid6 td{
+	border:0;
+	border-style:none;
+	margin:0;
+}
+.HoverZoom .Grid6 td .BImg{
+
+	position:absolute;
+	overflow:hidden;
+
+	margin:0 auto;
+	width:100%;
+	cursor:pointer;
+	height:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	-webkit-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+    background-position:50% 50%;
+
+	
+	top:0;
+}
+.HoverZoom .Grid6 td .BImg:hover{
+		-webkit-transform:scale(1.5);
+	-ms-transform:scale(1.5);
+	    transform:scale(1.5);
+	top:-12.5%;
+}
+.HoverZoom .Grid6 td .BImg img{
+	max-height:50vh;
+}
+.HoverZoom .Grid6 td .BText{
+	position:absolute;
+	z-index: 5;
+	width:75%;
+	left:12.5%;
+	color:white;
+	background:rgba(0, 0, 0, 0.4);
+	pointer-events: none;
+	top: 50%;
+	-webkit-transform: translateY(-50%)scale(1.5);
+	-ms-transform: translateY(-50%)scale(1.5);
+	    transform: translateY(-50%)scale(1.5);
+	opacity:0;
+	-webkit-transition: all 0.7s ease;
+	        transition: all 0.7s ease;
+    
+	/*opacity:1;
+	-webkit-transform:translateY(-50%)scale(1);
+	-ms-transform:translateY(-50%)scale(1);
+	    transform:translateY(-50%)scale(1);*/    
+}
+.HoverZoom .Grid6 td:hover .BText{
+	opacity:1;
+	-webkit-transform:translateY(-50%)scale(1);
+	-ms-transform:translateY(-50%)scale(1);
+	    transform:translateY(-50%)scale(1);
+    /*-webkit-transform: translateY(-50%)scale(1.5);
+	-ms-transform: translateY(-50%)scale(1.5);
+	    transform: translateY(-50%)scale(1.5);
+    opacity:0;*/
+}
+
+
+
+#UpcomingMeetings{
+    display:inline-block;
+    margin-top:25px;
+    margin-bottom:5px;
+    /*padding-bottom:10px;			/*THIS PADDING GETS REVERSED WITH EVERY PASSING MEETING*/
+    background:#bdc3c7;
+    max-width:100%;
+    overflow-x:hidden !important;
+}
+#UpcomingMeetings th{
+    font-size:150%;
+    text-align:right;
+    padding-right:40px;
+}
+#UpcomingMeetings td, th{
+    padding:10px;
+    min-width:34vw;
+    text-align:center;
+}
+#UpcomingMeetings #NextMeeting{
+    background:#2c3e50;
+    color:white;
+}
+#UpcomingMeetings #NextMeeting td{
+    padding:50px;
+}
+#UpcomingMeetings tr:nth-child(odd){
+    background:#2c3e50;
+    color:white;
+}
+#UpcomingMeetings tr:nth-child(even){
+    background:#bdc3c7
+}
+
+
+
+#BigPicDisp{
+    position:absolute;
+    width:98vw;
+    height:100vh;
+    z-index:6;
+    left:-100vw;
+    transition: left 1s ease, opacity 1s ease, transform 1s ease;
+    background-image: url("./images/fdesign1.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    padding:0;
+    margin:0;
+    cursor:pointer;
+    opacity:0;
+    transform: rotateY(-90deg);
+}
+
+
+
+header{
+    position:relative;
+    z-index:1;
+}
+.TitleBG{
+    position:absolute;
+    z-index:0;
+    width:100%;
+    height:100%;
+    background:radial-gradient(black, rgba(0,0,0,0));
+    left:0;
+    top:0;
+    
+}

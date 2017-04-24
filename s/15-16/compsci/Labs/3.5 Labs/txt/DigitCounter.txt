@@ -1,0 +1,19 @@
+/**
+ * header
+ */
+import static java.lang.System.*;
+
+
+public class DigitCounter
+{
+    // default constructor
+    public DigitCounter()
+    {
+        
+    }
+    // method countDigits which has 1 int parameter and returns an int
+    public int countDigits(int tempInt)
+    {
+        return ( Integer.toString(tempInt).length() );
+    }
+}

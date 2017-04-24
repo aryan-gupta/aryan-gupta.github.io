@@ -1,0 +1,170 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|Nunito:700|Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+
+body{
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+    padding:  0;
+    margin: 0;
+}
+
+h2, h3, h4, h5, h6{
+	font-family: 'Ubuntu', sans-serif;
+}
+h1{
+	font-family:"Audiowide", sans-serif;
+	font-size:1000%;
+	margin:0;
+}
+/* OMG YOU NUBS... IS THIS REALLY HOW YOU CODE? */ 
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+	font-size:200%;
+	margin:0;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;   
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+        font-size: 120%;
+}
+
+header{
+    padding-bottom: 40px;
+}
+
+.dawg{
+    background-color: #F4F4F4;
+    color: black;
+    display: inline-block;
+    width: 350px;
+    margin: 20px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+    -webkit-transition: background-color  0.4s ease-out;
+	-moz-transition: background-color  0.4s ease-out;
+	-o-transition: background-color  0.4s ease-out;
+	-ms-transition: background-color  0.4s ease-out;
+	transition: background-color  0.4s ease-out;
+}
+
+.dawg:hover{
+    background-color: #8e44ad;
+    color: white;
+	-webkit-transition: background-color  0.4s ease-out;
+	-moz-transition: background-color  0.4s ease-out;
+	-o-transition: background-color  0.4s ease-out;
+	-ms-transition: background-color  0.4s ease-out;
+	transition: background-color  0.4s ease-out;
+}
+
+.dawg h3{
+ margin-top: 0;   
+}
+
+.scroll{
+    width: 80px;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    //height: 26px;
+    background-color: #F4F4F4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.holder{   
+    max-width: 1200px;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.cardCon{
+    min-width: 1200px;
+    height: 450px;
+}
+
+/* Responsive Stuff */ 
+
+@media  all and (min-width: 0px) {
+    .holder{ 
+        width: 410px;
+        //background: blue;
+    }
+}
+
+@media  all and (min-width: 1000px){
+    .holder{ 
+        width: 800px;
+        //background: red;
+    }
+}
+
+@media  all and (min-width: 1200px){
+    .holder{ 
+        width: 1200px;
+        //background: red;
+    }
+}
+
+.ThreeCards{
+	margin-top:30px;
+}
+.ThreeCards div{
+	width:30vw;
+	height:54vh;
+	margin-left:1vw;
+	margin-right:1vw;
+	display:inline;
+	/*box-shadow: 8px 8px 20px 1px #999;*/
+	text-align:center;
+    border: none;
+    background-color: #F4F4F4;
+    padding: 4px;
+}
+.ThreeCards div:nth-child(1){
+	
+}
+.ThreeCards div:nth-child(2){
+	
+}
+.ThreeCards div:nth-child(3){
+	
+}
+.ThreeCards img{
+	max-width:29vw;
+}
+
+section:nth-child(1){
+}
+section:nth-child(2){
+    background-color: #F4F4F4;
+}
+section:nth-child(3){
+	/*background:linear-gradient(white, #A6C7FF);*/
+	background-color: white;
+}
+
+section:nth-child(4){
+    background-color: #F4F4F4;
+}
+/*A6C7FF*/
+
+.ScrollDown{
+	font-style:italic;
+	//position:absolute;
+	//bottom:40px;
+	//left:25vw;
+	width:50vw;
+    margin: auto;
+    margin-top: 10%;
+}

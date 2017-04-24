@@ -1,0 +1,16 @@
+ {
+	"responsive": true,
+	"tmpSocialIconFont": true,
+	"description": "Lucent is a classy theme that strikes a design focused balance between your content and brand positioning. With a strong background image baked into the layout, Lucent  gives your content an engaging and interesting framework on every page.",
+	"enableEditorJS": true,
+	"features": [
+		"responsive",
+		"css-buttons",
+		"social-icons",
+		"full-width-header",
+		"scroll-top",
+		"background-image",
+		"slideshow-header",
+		"navigation-top"
+	]
+}

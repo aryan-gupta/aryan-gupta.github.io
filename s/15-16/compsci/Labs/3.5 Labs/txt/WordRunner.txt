@@ -1,0 +1,21 @@
+/**
+ * header
+ */
+import static java.lang.System.*;
+import java.util.Scanner;
+
+public class WordRunner
+{
+	public static void main( String[] args )
+	{		
+	   out.print("Enter a word or phrase :: ");
+        Scanner in = new Scanner (System.in);
+        String statement = in.nextLine();
+        Word demo = new Word(statement);
+        out.println(demo.getFirstChar());
+        out.println(demo.getLastChar());
+        out.println(demo.getBackWards());
+        out.println(demo+"\n\n");
+        out.println("done");
+	}
+}

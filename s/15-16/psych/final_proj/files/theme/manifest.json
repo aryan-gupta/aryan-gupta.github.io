@@ -1,0 +1,14 @@
+{	
+	"responsive": true,
+	"tmpSocialIconFont": true,
+	"enableEditorJS": true,
+    "description": "Dusk gives your website an extra wash of color and sophisticated design elements. The professional palettes and fixed navigation allow your content and brand to remain beautifully positioned on all pages.",
+    "features": [
+        "responsive",
+        "css-buttons",
+        "social-icons",
+        "full-width-header",
+        "navigation-center",
+        "color-palettes"
+    ]
+}

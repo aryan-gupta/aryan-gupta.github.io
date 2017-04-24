@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+	<title>My Site</title>
+	<link rel="shortcut icon" href="/favicon.ico">
+	<style>
+		.CSGOV {
+			margin-left: auto;
+			margin-right: auto;
+			display: block
+		}
+		
+		/* entire container, keeps perspective */
+		.flip-container {
+			perspective: 1000;
+		}
+		/* flip the pane when hovered */
+		.flip-container:hover .flipper, .flip-container.hover .flipper {
+			transform: rotateY(180deg);
+		}
+
+		.flip-container, .front, .back {
+			width: auto;
+			height: auto;
+			margin:0 auto;
+		}
+
+		/* flip speed goes here */
+		.flipper {
+			transition: 0.6s;
+			transform-style: preserve-3d;
+			position: relative;
+		}
+
+		/* hide back of pane during swap */
+		.front, .back {
+			backface-visibility: hidden;
+			//position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		/* front pane, placed above back */
+		.front {
+			z-index: 2;
+			/* for firefox 31 */
+			transform: rotateY(0deg);
+		}
+
+		/* back, initially hidden pane */
+		.back {
+			transform: rotateY(180deg);
+		}
+	</style>
+</head>
+
+<body style="background:url('http://theguptaempire.net/m/vid/background.gif') repeat;text-align:center;">
+	<div style="width:85%; margin:0 auto; background:white; border-radius:25px;">
+		<img src="/m/img/logo.png" width="95%" style="margin:0 auto; background:white;"></img>
+	</div>
+	</br>
+	<div style="width:85%; margin:0 auto; background-color:rgba(255, 145, 164, 0.95); border-radius:25px;">
+		</br>
+		</br>
+		<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper"  style="width:85%;margin:0 auto">
+				<div class="front">
+					<div style="background:#73FA8E; border-radius:7.5px;">
+						</br>
+						<h2 style="font-weight:700; color:crimson">MY SITE HAS BEEN MOVED TO <a href="http://theguptaempire.net">theguptaempire.net</a>. theguptaempire.ddns.net WILL ONLY WORK FOR 2 MORE WEEKS</h2>
+						</br>
+						</br>
+						<h2 style="font-weight: 700; color: #7AA783"><span style="color:#7A52CC;">AK</span> <span style="color:#FF0000">TSA</span> finally has a place on the web!! Go <a href="http://aktsa.org">here</a> for the new <span style="color:#7A52CC;">AK</span> <span style="color:#FF0000">TSA</span> webpage. </h2>
+						</br>	
+						</br>	
+						</br>	
+						</br>	
+						<h2 style="font-weight:700; color: #333333"> Comp Sci Kids can go here <a href="/compsci/">here</a>.</h2>
+						</br>	
+						</br>	
+						</br>	
+						</br>	
+						<h2 style="font-weight:700; color: blue"> If you are looking for AP books then go <a href="/Books/!!APBOOKS!!/">here</a>.</h2>
+						<h2 style="font-weight:700; color: blue"> You can also check out other books <a href="/Books/">here</a>.</h2>
+						</br>
+					</div>
+				</div>
+				</br>
+				<div class="back">
+				
+				</div>
+			</div>
+		</div>
+		<div  style="background:#73FA8E; border-radius:7.5px;width:85%;margin:0 auto">
+			<p>Good luck playing this video</p>
+			<video class="CSGOV" width="90%" controls="controls"><source src="/m/vid/movie.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+			</br>
+			</br>
+		</div>
+		</br>
+		</br>
+		</br>
+		<p style="">Please note that this website may not be up all the time, so please bookmark your destination, or download the pdfs!</p>	
+		</br>	
+		<p style="">If you're me then here is your FTP server: <a href="ftp://TheGuptaEmpire.net">ftp://theguptaempire.net</a></p>
+		</br>
+		<h1 style="color:white;"> THANK YOU and HAVE A NICE DAY!! </h1>
+		</br>
+	</div>
+</body>

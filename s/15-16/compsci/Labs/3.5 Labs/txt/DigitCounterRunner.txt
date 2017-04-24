@@ -1,0 +1,17 @@
+/**
+ * header
+ */
+import static java.lang.System.*;
+
+public class DigitCounterRunner
+{
+	public static void main( String args[] )
+	{
+		DigitCounter dc = new DigitCounter();
+		int[] cases = {234, 10000, 111, 9005, 84645, 8547, 123456789};
+		for(int item : cases)
+		{
+			System.out.println(item + " contains " + dc.countDigits(item) + " digits\n");
+		}
+	}
+}

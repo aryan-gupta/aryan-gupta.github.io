@@ -1,0 +1,53 @@
+/**
+ * header
+ */
+import static java.lang.System.*;
+
+public class Word
+{
+    String word;
+    // 1 string instance variable
+    
+    public Word()
+    {
+        setString("");
+    }
+    // default constructor
+    public Word(String tempString)
+    {
+        setString(tempString);
+    }
+    // loaded constructor
+    private void setString(String tempString)
+    {
+        word = tempString;
+    }
+    // method setString
+    public String getFirstChar()
+    {
+        return ( "First letter: " + Character.toString( word.charAt(0) ) );
+    }
+    // method getFirstChar
+    public String getLastChar()
+    {
+        return ( "Last Letter: " + Character.toString( word.charAt( word.length() - 1 ) ) );
+    }
+    // method getLastChar
+    public String getBackWards()
+    {
+        String tempString = "";
+        char tempChar;
+        for(int i = 0; i < word.length(); i++)
+        {
+            tempChar = ( word.charAt(word.length() - ( i + 1 ) ) );
+            tempString = ( tempString + Character.toString( tempChar ) );          
+        }
+        return ( "Reversed: " + tempString );
+    }
+    // method getBackWards
+    public String toString()
+    {
+        return ( "Original: " + word );
+    }
+    // method toString
+}
