@@ -1,9 +1,0 @@
-User-agent: Googlebot
-Disallow: /
-Allow: /index.html
-Allow: /$
-Allow: /s/*
-Allow: /m/*
-
-User-agent: *
-Disallow: /
