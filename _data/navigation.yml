@@ -5,7 +5,7 @@ main:
   - title: "Blog"
     url: /blog/
   - title: "About Me"
-    url: /
+    url: https://github.com/aryan-gupta/Resume/blob/master/Resume.pdf
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

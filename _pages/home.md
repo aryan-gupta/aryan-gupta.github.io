@@ -29,7 +29,7 @@ feature_row:
     alt: "resume"
     title: "Resume"
     excerpt: "My Resume/CV is available at the link below. I also keep a version-tracked respository on my GitHub page."
-    url: "/assets/doc/Resume.pdf"
+    url: "https://github.com/aryan-gupta/Resume/blob/master/Resume.pdf"
     btn_class: "btn--primary"
     btn_label: "PDF Resume"      
 ---
