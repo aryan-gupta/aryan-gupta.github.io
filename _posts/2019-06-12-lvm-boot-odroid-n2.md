@@ -5,6 +5,9 @@ tags:
   - lvm
 ---
 
+**Note:** I wrote this blog post before my actual website went up. I cannot account for the correctness and the use of proper english on tis post. Please read with a grain of salt. I will remove this warning when I have had a chance to read over it and make sure its complete.
+{: .notice--warning}
+
 # LVM booting on the ODroid-N2
 I recently accurired a ODroid-N2 (refered as ODroid) so I could move my home server from the Intel Stick to something a lot more beefy. The ODroid is a 4GB ARM hexa-core Single Board Computer (SBC) with gigabit ethernet, HDMI and 4 USB 3.0 ports with many other features. The only problem I had with this machine is that its ISA is ARM based and Arch Linux doesn't officially suport ARM. There is however, a port of the distribution for ARM and SBC's like this one. However the default configuration is very barebones and considering that this was the only ARM based machine I had, I ran into many difficulties. But with every obstacle comes a learning opportunity. 
 

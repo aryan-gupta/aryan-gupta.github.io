@@ -6,6 +6,9 @@ tags:
   - ssh config
 ---
 
+**Note:** I wrote this blog post before my actual website went up. I cannot account for the correctness and the use of proper english on tis post. Please read with a grain of salt. I will remove this warning when I have had a chance to read over it and make sure its complete.
+{: .notice--warning}
+
 # SSH Alias for Different Networks
 One of the minor inconviences I have had trying to login to my SSH box is that if I'm logging in at home I have to use `ssh internal`, but when I'm logging in from anywhere else, I need to use `ssh external`. I wanted to find a way to tell ssh: If I'm at home, use one host and if I'm away, use another. After much Googleing and trying to find the right key words, I stumbles across SSH matching. It is best described with an example. My original `~/.ssh/config` looks similar to this.
 
