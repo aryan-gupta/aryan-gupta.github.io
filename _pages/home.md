@@ -21,14 +21,14 @@ feature_row:
   - image_path: /assets/img/main_page_center_feature.png
     alt: "blog"
     title: "Blog"
-    excerpt: "You can view my blog on this webite. I update it whenever I have a musing that I want to share with the world"
+    excerpt: "You can view my blog on this website. I update it whenever I have a musing that I want to share with the world"
     url: "/blog/"
     btn_class: "btn--primary"
     btn_label: "Blog Posts"
   - image_path: /assets/img/main_page_right_feature.png
     alt: "resume"
     title: "Resume"
-    excerpt: "My Resume/CV is available at the link below. I also keep a version-tracked respository on my GitHub page."
+    excerpt: "My Resume/CV is available at the link below. I also keep a version-tracked repository on my GitHub page."
     url: "https://github.com/aryan-gupta/Resume/blob/master/Resume.pdf"
     btn_class: "btn--primary"
     btn_label: "PDF Resume"      
