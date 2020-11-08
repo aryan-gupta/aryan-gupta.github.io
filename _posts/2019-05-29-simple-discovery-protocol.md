@@ -7,6 +7,9 @@ tags:
   - protocol
 ---
 
+**Note:** I wrote this blog post before my actual website went up. I cannot account for the correctness and the use of proper english on tis post. Please read with a grain of salt. I will remove this warning when I have had a chance to read over it and make sure its complete.
+{: .notice--warning}
+
 # Simple Discovery Protocol
 One of the things I was interested is making my internal network as modular as possible. I wanted to remove the necessity of hardcoding server names and other configurations into the script file or program. So I decided to create a simple discovery protocol based on HTTP to get these values.
 

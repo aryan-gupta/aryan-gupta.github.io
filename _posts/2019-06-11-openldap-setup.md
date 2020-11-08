@@ -5,6 +5,9 @@ tags:
   - OpenLDAP
 ---
 
+**Note:** I wrote this blog post before my actual website went up. I cannot account for the correctness and the use of proper english on tis post. Please read with a grain of salt. I will remove this warning when I have had a chance to read over it and make sure its complete.
+{: .notice--warning}
+
 # Setting up a LDAP Server
 On my goal of creating my home lab, I decided to add somthing similar to Windows Active Directory services so I could have one account that could access multiple services without tyoeing in different passwords. However, considering that I use linux for most of my day-to-day computing, I wanted to setup an OpenLDAP server on my Arch inux server. 
 
