@@ -10,3 +10,9 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+disk-keyboard-part-nav:
+  - title:
+    children:
+      - title: "Part 1"
+        url: ./dusk-keyboard-part-1/
