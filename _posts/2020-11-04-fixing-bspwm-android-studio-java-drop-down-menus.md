@@ -1,5 +1,5 @@
 ---
-title: Fixing BSPWM Java Drop Down Centered Menus in Android Studio
+title: Fixing BSPWM Centered Drop Down Menus in Android Studio
 tags:
   - bspwm
   - intellij
