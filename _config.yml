@@ -94,9 +94,9 @@ analytics:
 # Site Author
 author:
   name             : "Aryan Gupta"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/img/personal_profile.png
   bio              : "A self-taught programmer that loves tinkering, coding, and other nerdy stuff"
-  location         : "United States"
+  location         : "North Carolina, US"
   email            : "webmaster@theguptaempire.net"
   links:
     - label: "Email"
@@ -104,10 +104,13 @@ author:
       # url: "mailto:webmaster@theguptaempire.net"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://theguptaempire.net"
+      # url: "https://theguptaempire.net"
     - label: "Reddit"
       icon: "fab fa-fw fa-reddit"
-      url: "https://www.reddit.com/user/Radioactive_Curry"
+      # url: "https://www.reddit.com/user/Radioactive_Curry"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: https://www.linkedin.com/in/aryan-gupta/
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/theguptaemperor"
