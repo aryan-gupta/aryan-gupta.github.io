@@ -4,10 +4,10 @@ main:
     url: /
   - title: "Blog"
     url: /blog/
+  - title: "Projects"
+    url: /projects/
   - title: "About Me"
     url: https://github.com/aryan-gupta/Resume/blob/master/Resume.pdf
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
 
