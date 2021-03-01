@@ -9,7 +9,7 @@ header:
     - label: "<i class='fas fa-image'></i> Original Image"
       url: "/assets/img/main_page_whole_image.jpg"
 excerpt: >
-  Welcome to my personal website. The website is currently in construction so you may see incompleat sections, incorrekt information, and bad for<span style="font-family:monospace">matt</span>ing.<br />
+  Welcome to my empire. I am almost finished building this website but you may still see incompleat sections, incorrekt information, and bad for<span style="font-family:monospace">matt</span>ing.<br>
 feature_row:
   - image_path: /assets/img/main_page_left_feature.png
     alt: "github"
