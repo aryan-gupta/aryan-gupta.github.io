@@ -7,7 +7,7 @@ main:
   - title: "Projects"
     url: /projects/
   - title: "About Me"
-    url: https://github.com/aryan-gupta/Resume/blob/master/Resume.pdf
+    url: /about-me/
   # - title: "Sitemap"
   #   url: /sitemap/
 
