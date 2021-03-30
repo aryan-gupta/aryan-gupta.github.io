@@ -49,5 +49,5 @@ Click [here](https://github.com/aryan-gupta/Resume/raw/master/Resume.pdf) for a 
     };
 </script>
 <div style="border:none;width:100%;height:1000px" id="pdf-resume-container">
-    <iframe style="border:none;width:100%;height:100%" src="https://render.githubusercontent.com/view/pdf?color_mode=dark&commit=7665e4c252fbd83d6e41c98ee7d94d0d5dceb784&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f617279616e2d67757074612f526573756d652f373636356534633235326662643833643665343163393865653764393464306435646365623738342f526573756d652e706466&nwo=aryan-gupta%2FResume&path=Resume.pdf&repository_id=173609328&repository_type=Repository#2a189aef-f0c3-4445-94f7-062c78df871a"></iframe>
+    <iframe style="border:none;width:100%;height:100%" src="https://docs.google.com/gview?url=https://github.com/aryan-gupta/Resume/raw/master/Resume.pdf&amp;embedded=true"></iframe>
 </div>
